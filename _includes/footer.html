@@ -1,17 +1,38 @@
+<footer class="site-footer">
 
-<div class="clearfix"></div>
+  <div class="wrapper">
 
-<footer class="site-footer txt-center">
-  <hr>
+    <h2 class="footer-heading">{{ site.title }}</h2>
 
-  <ul class="social">
-    {% for item in site.social %}
-      {% for i in item %}
-        <li><a href="{{ i.link }}" target="_blank"><i class="icon icon-{{ i.slug }}"></i></a></li>
-      {% endfor %}
-    {% endfor %}
-  </ul>
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>{{ site.title }}</li>
+          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        </ul>
+      </div>
 
-  <small>&copy; {{ site.time | date: '%Y' }} All rights reserved. Made with <i class="icon icon-heart"></i> using <a href="http://jekyllrb.com" target="_blank">Jekyll</a></small>
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          {% if site.github_username %}
+          <li>
+            {% include icon-github.html username=site.github_username %}
+          </li>
+          {% endif %}
+
+          {% if site.twitter_username %}
+          <li>
+            {% include icon-twitter.html username=site.twitter_username %}
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>{{ site.description }}</p>
+      </div>
+    </div>
+
+  </div>
 
 </footer>
