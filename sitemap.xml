@@ -3,35 +3,35 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>fellowhobbyist.com/post/about/</loc>
+    <loc>https://fellowhobbyist.com/post/about/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>fellowhobbyist.com/tags/about/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>fellowhobbyist.com/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>fellowhobbyist.com/</loc>
+    <loc>https://fellowhobbyist.com/tags/about/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>fellowhobbyist.com/post/</loc>
+    <loc>https://fellowhobbyist.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fellowhobbyist.com/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>fellowhobbyist.com/tags/</loc>
+    <loc>https://fellowhobbyist.com/post/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fellowhobbyist.com/tags/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
