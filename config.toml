@@ -1,4 +1,4 @@
-baseurl = "https://fellowhobbyist.github.io"
+baseurl = "fellowhobbyist.github.io/"
 title = "Fellow Hobbyist"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
