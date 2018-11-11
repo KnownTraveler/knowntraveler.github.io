@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Fellow Hobbyist</title>
-    <link>fellowhobbyist.com/tags/</link>
+    <link>fellowhobbyist.github.io/tags/</link>
     <description>Recent content in Tags on Fellow Hobbyist</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="fellowhobbyist.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="fellowhobbyist.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>fellowhobbyist.com/tags/about/</link>
+      <link>fellowhobbyist.github.io/tags/about/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>fellowhobbyist.com/tags/about/</guid>
+      <guid>fellowhobbyist.github.io/tags/about/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Go</title>
-      <link>fellowhobbyist.com/tags/go/</link>
+      <link>fellowhobbyist.github.io/tags/go/</link>
       <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>fellowhobbyist.com/tags/go/</guid>
+      <guid>fellowhobbyist.github.io/tags/go/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>fellowhobbyist.com/tags/hugo/</link>
+      <link>fellowhobbyist.github.io/tags/hugo/</link>
       <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>fellowhobbyist.com/tags/hugo/</guid>
+      <guid>fellowhobbyist.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     
