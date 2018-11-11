@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 
 ## BASIC SETUP
@@ -45,7 +44,3 @@ The command hugo renders your site into public/ dir and is ready to be deployed 
 ## REFERENCES
 [Hugo Theme](https://themes.gohugo.io/mainroad/)
 
-=======
-# fellowhobbyist.github.io
-Fellow Hobbyist Blog
->>>>>>> 17acd43c2177152af29dd96a91b6c0398cfd1be0
