@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Go on Fellow Hobbyist</title>
-    <link>/categories/go/</link>
+    <link>https://fellowhobbyist.com/categories/go/</link>
     <description>Recent content in Go on Fellow Hobbyist</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Feb 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/go/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://fellowhobbyist.com/categories/go/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Up and Running with Hugo</title>
-      <link>/post/up-and-running-with-hugo/</link>
+      <link>https://fellowhobbyist.com/post/up-and-running-with-hugo/</link>
       <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/up-and-running-with-hugo/</guid>
+      <guid>https://fellowhobbyist.com/post/up-and-running-with-hugo/</guid>
       <description>Summary This post is a simple guide to quickly get up-and-running with Hugo and GitHub Pages for hosting your next static website over HTTPS via a Custom Domain.
 We&amp;rsquo;ll also be working with Git Submodules. As it often happens while working on one project, you will need to use another project from within it. We will be using Git Submodules to accomplish the following:
  Manage the Source Code via a Private Git Repository Publish the Static Site to a separate GitHub Pages Repository Source a Custom Hugo Theme  You can learn More About Git Submodules Here</description>
