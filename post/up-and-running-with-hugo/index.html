@@ -92,7 +92,16 @@
 </ul></li>
 </ul></li>
 <li><a href="#create-a-deployment-script">Create a Deployment Script</a></li>
-<li><a href="#publish-to-github-pages">Publish to GitHub Pages</a></li>
+<li><a href="#https-on-github-pages">HTTPS on GitHub Pages</a>
+<ul>
+<li>
+<ul>
+<li><a href="#update-config-toml-1">Update config.toml</a></li>
+<li><a href="#configure-a-records">Configure A Records</a></li>
+<li><a href="#create-a-cname-file">Create a CNAME File</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#wrapping-up">Wrapping Up</a></li>
 <li><a href="#additional-resources">Additional Resources</a></li>
 </ul></li>
 </ul>
@@ -214,7 +223,7 @@ git submodule add https://github.com/FellowHobbyist/fellowhobbyist.github.io.git
 
 <p>We need a consistent way to build and deploy our project to our GitHub Pages Repository.  To accomplish this we are going to use a bash script (deploy.sh) that is saved in the root directory of our project.  Be sure to update the permissions so that it is executable.</p>
 
-<pre><code>chmod 0755 ./blog/deploy.sh
+<pre><code>$ chmod 0755 ./blog/deploy.sh
 </code></pre>
 
 <p>Here is the script /blog/deploy.sh</p>
@@ -259,18 +268,66 @@ echo -e &quot;\033[0;32mDeploy Complete...\033[0m&quot;
 
 <p>Now run the deploy script</p>
 
-<pre><code>./deploy.sh
+<pre><code>$ ./deploy.sh
+
+# EXAMPLE OUTPUT
+Deploying Blog to GitHub...
+Building the Project...
+
+                | EN
++------------------+----+
+Pages            |  9
+Paginator pages  |  0
+Non-page files   |  0
+Static files     |  9
+Processed images |  0
+Aliases          |  6
+Sitemaps         |  1
+Cleaned          |  0
+Total in 17 ms
+
+Changing into /public directory...
+Adding changes to git...
+Committing changes to git...
+[master 1786a8e] Rebuilding site Wed Feb 1 14:00:00 CST 2017
+...
+Change into root directory..
+Deploy Complete...
 </code></pre>
 
-<h2 id="publish-to-github-pages">Publish to GitHub Pages</h2>
+<h2 id="https-on-github-pages">HTTPS on GitHub Pages</h2>
 
-<p>Now Whenever we make changes</p>
+<p>GitHub Pages allow you host your site via HTTPS using the default domain or a custom domain.  Here are a couple of quick reminders if you want to use a custom domain:</p>
+
+<h4 id="update-config-toml-1">Update config.toml</h4>
+
+<p>To use a Custom Domain, be sure to update baseurl variable in your config.toml</p>
+
+<pre><code>baseurl = &quot;https://&lt;your_custom_domain&gt;/&quot;
+</code></pre>
+
+<h4 id="configure-a-records">Configure A Records</h4>
+
+<p>To use HTTPS and a Custom Domain you will <a href="https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider">Configure A Records</a> with your DNS Provider.</p>
+
+<h4 id="create-a-cname-file">Create a CNAME File</h4>
+
+<p>Create a CNAME file under static/CNAME (e.g. /blog/static/CNAME)</p>
+
+<p>To use a custom domain for your GitHub Pages site, create a file static/CNAME. Your custom domain name should be the only contents inside CNAME. Since it’s inside static, the published site will contain the CNAME file at the root of the published site, which is a requirements of GitHub Pages.</p>
+
+<h2 id="wrapping-up">Wrapping Up</h2>
+
+<p>Ok, to quickly wrap things up.  This post has introduced Hugo and walked through a few simple configurations for your Hugo project so that you can manage your source code in a private git repository and using git submodules build/deploy to a public GitHub Pages respository that hosts over HTTPS.</p>
+
+<p>I hope that this gets you quickly up and running with your next static website.</p>
 
 <h2 id="additional-resources">Additional Resources</h2>
 
 <ul>
 <li><a href="https://git-scm.com/book/en/v2/Git-Tools-Submodules">Git Submodules</a></li>
 <li><a href="https://pages.github.com/">GitHub Pages</a></li>
+<li><a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">Hosting Hugo on GitHub Pages</a></li>
 <li><a href="https://gohugo.io">Hugo</a></li>
 <li><a href="https://themes.gohugo.io/">Hugo Themes</a></li>
 </ul>
