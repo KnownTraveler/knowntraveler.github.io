@@ -38,9 +38,7 @@ body {
   background: url("../images/css/bg-pattern.png"), #333;
   background: url("../images/css/bg-pattern.png"), -webkit-linear-gradient(to left, #333, #000);
   background: url("../images/css/bg-pattern.png"), linear-gradient(to left, #333, #000);
-
 }
-
 
 header.masthead {
   position: relative;

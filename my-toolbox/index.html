@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="blog, knowntraveler, hooper, cloud, architect, engineer, practitioner, gadgetry, open source">
+
+    <title>Darkmatter.Cloud</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+  
+    <!-- STYLES -->
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!--<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">-->
+
+    <!-- Reveal.js CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/theme/white.min.css">
+
+    <!-- Darkmatter CSS -->
+    <link rel="stylesheet" href="/assets/styles/darkmatter.css">
+    
+    <!-- SCRIPTS -->
+    <!-- jQuery.js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+    
+    <!-- Bootstrap.js + Popper.js-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
+
+    <!-- Reveal.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/js/reveal.min.js"></script>
+    
+    <!-- Simply Jekyll Search -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/simple-jekyll-search/1.7.1/simple-jekyll-search.min.js"></script>
+
+    <!-- Holder.js -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.6/holder.min.js"></script>
+
+
+    <!-- Custom JavaScript -->
+    <script type="text/javascript" src="/assets/scripts/jquery-easing.min.js"></script>
+    <script type="text/javascript" src="/assets/scripts/scrolling-nav.js"></script>
+  </head>
+
+<body>
+  <div class="container">
+
+    <div class="header">
+      <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #333;">
+    <div class="container">
+        <a class="navbar-brand" href="/home">Darkmatter.Cloud</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/blog">Blog</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Pages
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/cover">Cover</a>
+                        <a class="dropdown-item" href="/frontpage">Frontpage</a>
+                        <a class="dropdown-item" href="/landing">Landing</a>
+                        <a class="dropdown-item" href="/scroll">Scroll</a>
+                        <a class="dropdown-item" href="/welcome">Welcome</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/about">About</a>
+                        <a class="dropdown-item" href="/team">Team</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/fullwidth">Full Width</a>
+                        <a class="dropdown-item" href="/album">Album</a>
+                        <a class="dropdown-item" href="/product">Product</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/blog">Blog</a>
+                        <a class="dropdown-item" href="/post">Post</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/portfolio-1">1 Column Portfolio</a>
+                        <a class="dropdown-item" href="/portfolio-2">2 Column Portfolio</a>
+                        <a class="dropdown-item" href="/portfolio-3">3 Column Portfolio</a>
+                        <a class="dropdown-item" href="/portfolio-item">Portfolio Item</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Slides
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/slides/sample-presentation">Sample Presentation</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/search">Search</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    </div>
+
+    <div class="container" style="padding-top: 25px;">
+      <h1>My Toolbox</h1>
+<p>01 Jan 2018 | <a href="/about">Brian Hooper</a></p>
+<hr>
+<br>
+
+<p>This post is a currated list of Frameworks, Languages, Libraries, and Tools.</p>
+
+<p>There is no single tool which fits all needs. There are many fantastic open source tools available for 
+developing solutions that cover applications, infrastructure, and databases.  In addition there is quite a 
+bit of tooling which come under various categories like infrastructure as code, configuration management, 
+orchestration, continuous integration, monitoring, networking, security, and etc.</p>
+
+<table id="tableToolbox" class="table table-hover">
+    <thead>
+		<tr>
+			<th>ICON</th>
+			<th><input type="text" id="inputFilterByName" onkeyup="filterByName()" placeholder="Filter by Name..." /></th>
+			<th><input type="text" id="inputFilterByDescription" onkeyup="filterByDescription()" placeholder="Filter by Description..." /></th>
+			<th><input type="text" id="inputFilterByTags" onkeyup="filterByTags()" placeholder="Filter by Tags..." /></th>
+		</tr>
+	</thead>
+  <tbody>
+    <tr>
+      <td><img class="img-fluid" src="/assets/images/icons/ansible.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://www.ansible.com/" target="_blank">Ansible</a></td>
+      <td>Agentless IT Automation</td>
+      <td>CI/CD, Automation, Configuration</td>
+    </tr>
+    <tr>
+      <td><img class="img-fluid" src="/assets/images/icons/atom.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://atom.io/" target="_blank">Atom</a></td>
+      <td>Hackable Text Editor</td>
+      <td>Code, Text</td>
+    </tr>
+    <tr>
+      <td><img class="img-fluid" src="/assets/images/icons/bitbucket.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://bitbucket.org/" target="_blank">BitBucket</a></td>
+      <td>Version Control Repository</td>
+      <td>Git, Code, Source Control</td>
+    </tr>
+    <tr>
+      <td><img class="img-fluid" src="/assets/images/icons/centos.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://www.centos.org/" target="_blank">CentOS</a></td>
+      <td>CentOS Linux</td>
+      <td>Linux, OS, Open Source</td>
+    </tr>
+    <tr>
+      <td><img class="img-fluid" src="/assets/images/icons/chef.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://www.chef.io/" target="_blank">Chef</a></td>
+      <td>Continuous Automation Platform</td>
+      <td>CI/CD, Automation, Configuration</td>
+    </tr>
+    <tr>
+      <td><img class="img-fluid" src="/assets/images/icons/chrome.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://www.google.com/chrome/" target="_blank">Chrome</a></td>
+      <td>Google Chrome Browser</td>
+      <td>Browser</td>
+    </tr>
+    <tr>
+      <td><img class="img-fluid" src="/assets/images/icons/confluence.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://www.atlassian.com/software/confluence" target="_blank">Confluence</a></td>
+      <td>Open and Shared Workspace</td>
+      <td>Project, Wiki</td>
+    </tr>
+    <tr>
+      <td><img class="img-fluid" src="/assets/images/icons/discord.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://discordapp.com/" target="_blank">Discord</a></td>
+      <td>Voice and Text Chat for Gamers</td>
+      <td>Voice, Chat, Instant Messaging</td>
+    </tr>
+    <tr>
+      <td><img class="img-fluid" src="/assets/images/icons/docker.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://www.docker.com/" target="_blank">Docker</a></td>
+      <td>Docker Containerization</td>
+      <td>Containers, DevOps</td>
+    </tr>
+    <tr>
+      <td><img class="img-fluid" src="/assets/images/icons/expressjs.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://expressjs.com/" target="_blank">Express.js</a></td>
+      <td>Minimalist Web Framework for Node.js</td>
+      <td>Framework, REST API, JavaScript</td>
+    </tr>
+    <tr>
+    <td><img class="img-fluid" src="/assets/images/icons/firefox.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://www.mozilla.org/en-US/firefox/" target="_blank">Firefox</a></td>
+      <td>Mozille Firefox Browser</td>
+      <td>Browser, Open Source</td>
+    </tr>
+    <tr>
+    <td><img class="img-fluid" src="/assets/images/icons/fontawesome.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://fontawesome.com/" target="_blank">Font Awesome</a></td>
+      <td>Icon Set and Toolkit</td>
+      <td>Icons, Open Source</td>
+    </tr>
+    <tr>
+    <td><img class="img-fluid" src="/assets/images/icons/gimp.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://www.gimp.org/" target="_blank">Gimp</a></td>
+      <td>GNU Image Manipulation Program</td>
+      <td>Open Source</td>
+    </tr>
+    <tr>
+    <td><img class="img-fluid" src="/assets/images/icons/github.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://github.com" target="_blank">GitHub</a></td>
+      <td>Version Control Repository</td>
+      <td>Git, Code, Source Control</td>
+    </tr>
+    <tr>
+      <td><img class="img-fluid" src="/assets/images/icons/golang.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://golang.org/" target="_blank">Golang</a></td>
+      <td>Go Programming Language</td>
+      <td>Go, Binary</td>
+    </tr>
+    <tr>
+      <td><img class="img-fluid" src="/assets/images/icons/gpg.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://www.gnupg.org/" target="_blank">GNU Privacy Guard</a></td>
+      <td>Open Source Implmentation of OpenPGP</td>
+      <td>Security, Encryption</td>
+    </tr>
+    <tr>
+      <td><img class="img-fluid" src="/assets/images/icons/icons8.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://icons8.com" target="_blank">Icons8</a></td>
+      <td>Free Flat Icons</td>
+      <td>Icons, Open Source</td>
+    </tr>
+    <tr>
+      <td><img class="img-fluid" src="/assets/images/icons/jenkins.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://jenkins.io/" target="_blank">Jenkins</a></td>
+      <td>Build Automation Server</td>
+      <td>Build, Automation</td>
+    </tr>
+    <tr>
+      <td><img class="img-fluid" src="/assets/images/icons/jira.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://www.atlassian.com/software/jira" target="_blank">Jira</a></td>
+      <td>Agile Software Development</td>
+      <td>Projects, Agile</td>
+    </tr>
+    <tr>
+      <td><img class="img-fluid" src="/assets/images/icons/jq.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://stedolan.github.io/jq/" target="_blank">JQ</a></td>
+      <td>Command Line JSON Processor</td>
+      <td>JavaScript, JSON, Open Source</td>
+    </tr>
+    <tr>
+      <td><img class="img-fluid" src="/assets/images/icons/jumpcloud.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://jumpcloud.com/" target="_blank">JumpCloud</a></td>
+      <td>Directory as a Service</td>
+      <td>Security, LDAP</td>
+    </tr>
+    <tr>
+      <td><img class="img-fluid" src="/assets/images/icons/keybase.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://keybase.io/" target="_blank">Keybase</a></td>
+      <td>Public-key Cryptography</td>
+      <td>Security, Git, Encryption, Open Source</td>
+    </tr>
+    <tr>
+      <td><img class="img-fluid" src="/assets/images/icons/mint.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://linuxmint.com/" target="_blank">Mint</a></td>
+      <td>Linux Distro</td>
+      <td>Linux, Open Source </td>
+    </tr>
+    <tr>
+      <td><img class="img-fluid" src="/assets/images/icons/mysql.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://www.mysql.com/" target="_blank">MySQL</a></td>
+      <td>Relational Database</td>
+      <td>Database, Open Source </td>
+    </tr>
+    <tr>
+      <td><img class="img-fluid" src="/assets/images/icons/nodejs.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://nodejs.org" target="_blank">Node.js</a></td>
+      <td>JavaScript Runtime</td>
+      <td>JavaScript</td>
+    </tr>
+    <tr>
+      <td><img class="img-fluid" src="/assets/images/icons/openvpn.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://openvpn.net/" target="_blank">OpenVPN</a></td>
+      <td>Virtual Private Network</td>
+      <td>Network, Security</td>
+    </tr>
+    <tr>
+      <td><img class="img-fluid" src="/assets/images/icons/packer.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://www.packer.io/" target="_blank">Packer</a></td>
+      <td>Automated Machine Images</td>
+      <td>Configuration, DevOps, Open Source</td>
+    </tr>
+    <tr>
+      <td><img class="img-fluid" src="/assets/images/icons/postgres.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://www.postgresql.org/" target="_blank">PostgreSQL</a></td>
+      <td>Relational Database</td>
+      <td>Database, Open Source</td>
+    </tr>
+    <tr>
+      <td><img class="img-fluid" src="/assets/images/icons/postman.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://www.getpostman.com/" target="_blank">Postman</a></td>
+      <td>API Development</td>
+      <td>REST API, Development</td>
+    </tr>
+    <tr>
+      <td><img class="img-fluid" src="/assets/images/icons/rails.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://rubyonrails.org/" target="_blank">Rails</a></td>
+      <td>Full Stack Framework</td>
+      <td>Framework, Ruby, Open Source</td>
+    </tr>
+    <tr>
+      <td><img class="img-fluid" src="/assets/images/icons/react.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://reactjs.org/" target="_blank">React</a></td>
+      <td>Library for Building User Interfaces</td>
+      <td>Library, JavaScript, Open Source</td>
+    </tr>
+    <tr>
+      <td><img class="img-fluid" src="/assets/images/icons/remmina.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://remmina.org/" target="_blank">Remmina</a></td>
+      <td>Remote Desktop Client</td>
+      <td>Network, Remote Desktop Client</td>
+    </tr>
+    <tr>
+      <td><img class="img-fluid" src="/assets/images/icons/javascript.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://revealjs.com/" target="_blank">Reveal.js</a></td>
+      <td>HTML Presentation Framework</td>
+      <td>Framework, JavaScript, Slides</td>
+    </tr>
+    <tr>
+      <td><img class="img-fluid" src="/assets/images/icons/ruby.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://www.ruby-lang.org/en/" target="_blank">Ruby</a></td>
+      <td>Programming Language</td>
+      <td>Ruby, Code, Open Source</td>
+    </tr>
+    <tr>
+      <td><img class="img-fluid" src="/assets/images/icons/slack.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://slack.com/" target="_blank">Slack</a></td>
+      <td>Collaboration Hub</td>
+      <td>Chat, Instant Messaging</td>
+    </tr>
+    <tr>
+      <td><img class="img-fluid" src="/assets/images/icons/sqlite.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://www.sqlite.org/index.html" target="_blank">Sqlite</a></td>
+      <td>Small, Fast, SQL Database Engine</td>
+      <td>Database, Open Source</td>
+    </tr>
+    <tr>
+      <td><img class="img-fluid" src="/assets/images/icons/terminator.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://gnometerminator.blogspot.com/p/introduction.html?view=classic" target="_blank">Terminator</a></td>
+      <td>Feature Rich GNOME Terminal</td>
+      <td>Command Line, Open Source</td>
+    </tr>
+    <tr>
+      <td><img class="img-fluid" src="/assets/images/icons/terraform.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://www.terraform.io/" target="_blank">Terraform</a></td>
+      <td>Infrastructure as Code</td>
+      <td>DevOps, Configuration, Open Source</td>
+    </tr>
+    <tr>
+      <td><img class="img-fluid" src="/assets/images/icons/ubuntu.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://www.ubuntu.com/" target="_blank">Ubuntu</a></td>
+      <td>Linux Distro</td>
+      <td>Linux, OS, Open Source</td>
+    </tr>
+    <tr>
+      <td><img class="img-fluid" src="/assets/images/icons/vscode.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a></td>
+      <td>Programmer Editor</td>
+      <td>Code, Programmer, Open Source</td>
+    </tr>
+    <tr>
+      <td><img class="img-fluid" src="/assets/images/icons/wireshark.png" alt="" style="padding: 5px;" /></td>
+      <td><a href="https://www.wireshark.org/" target="_blank">Wireshark</a></td>
+      <td>Network Protocol Analyzer</td>
+      <td>Network, Open Source</td>
+    </tr>
+  </tbody>
+</table>
+
+<script>
+function filterByName() {
+  // Declare variables 
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("inputFilterByName");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("tableToolbox");
+  tr = table.getElementsByTagName("tr");
+
+  // Loop through all table rows, and hide those who don't match the search query
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[1];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    } 
+  }
+}
+
+function filterByDescription() {
+  // Declare variables 
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("inputFilterByDescription");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("tableToolbox");
+  tr = table.getElementsByTagName("tr");
+
+  // Loop through all table rows, and hide those who don't match the search query
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[2];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    } 
+  }
+}
+
+function filterByTags() {
+  // Declare variables 
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("inputFilterByTags");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("tableToolbox");
+  tr = table.getElementsByTagName("tr");
+
+  // Loop through all table rows, and hide those who don't match the search query
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[3];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    } 
+  }
+}
+</script>
+
+
+
+    </div>
+
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+      <div class="row">
+    <div class="col-12 col-md">
+        <img class="mb-2" src="/assets/images/darkmatter.png" alt="" width="48" height="48">
+        <small class="d-block mb-3 text-muted">&copy; Darkmatter Theme 2018</small>
+    </div>
+    <div class="col-6 col-md">
+        <h5>Heading 1</h5>
+        <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">HyperLink One</a></li>
+            <li><a class="text-muted" href="#">HyperLink Two</a></li>
+            <li><a class="text-muted" href="#">HyperLink Three</a></li>
+            <li><a class="text-muted" href="#">HyperLink Four</a></li>
+            <li><a class="text-muted" href="#">HyperLink Five</a></li>
+        </ul>
+    </div>
+    <div class="col-6 col-md">
+        <h5>Heading 2</h5>
+        <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">HyperLink One</a></li>
+            <li><a class="text-muted" href="#">HyperLink Two</a></li>
+            <li><a class="text-muted" href="#">HyperLink Three</a></li>
+            <li><a class="text-muted" href="#">HyperLink Four</a></li>
+            <li><a class="text-muted" href="#">HyperLink Five</a></li>
+        </ul>
+    </div>
+    <div class="col-6 col-md">
+        <h5>Heading 3</h5>
+        <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">HyperLink One</a></li>
+            <li><a class="text-muted" href="#">HyperLink Two</a></li>
+            <li><a class="text-muted" href="#">HyperLink Three</a></li>
+            <li><a class="text-muted" href="#">HyperLink Four</a></li>
+            <li><a class="text-muted" href="#">HyperLink Five</a></li>
+        </ul>
+    </div>
+</div>
+<!-- /.row -->
+
+<hr>
+<div class="row">
+    <div class="col-6 col-md">
+        <p class="text-muted float-left">
+            <a href="https://github.com/knowntraveler/darkmatter-theme/" target="_blank">Darkmatter Theme</a>
+            Handcrafted with <i class="fas fa-heart"></i> by a <a href="https://darkmatter.cloud" target="_blank">Known Traveler</a>
+        </p>
+    </div>
+    <div class="col-6 col-md">
+        <p class="text-muted float-right">
+            <a href="https://opensource.org/licenses/MPL-2.0" target="_blank">Mozilla Public License 2.0</a>
+        </p>
+    </div>
+</div>
+<!-- /.row -->
+    </footer>
+
+  </div>
+
+  
+
+  <script type="text/javascript">
+    var sjs = SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      json: '/search.json',
+      limit: 25
+    })
+  </script>
+</body>
+
+</html>

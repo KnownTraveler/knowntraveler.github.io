@@ -7,9 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="">
     <meta name="description" content="">
-    <meta name="keywords" content="Jekyll, theme, open source, download, SEO, web, minimalist, hobbyist, darkmatter">
+    <meta name="keywords" content="blog, knowntraveler, hooper, cloud, architect, engineer, practitioner, gadgetry, open source">
 
-    <title>Darkmatter</title>
+    <title>Darkmatter.Cloud</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
   
@@ -30,6 +30,7 @@
     <!-- SCRIPTS -->
     <!-- jQuery.js -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
     
     <!-- Bootstrap.js + Popper.js-->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
@@ -48,159 +49,41 @@
     <script type="text/javascript" src="/assets/scripts/jquery-easing.min.js"></script>
     <script type="text/javascript" src="/assets/scripts/scrolling-nav.js"></script>
   </head>
+<link rel="stylesheet" href="/assets/styles/darkmatter-cover.css">
 
-<body>
-  <div class="container">
+<body class="text-center">
 
-    <div class="header">
-      <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #333;">
-    <div class="container">
-        <a class="navbar-brand" href="/">Darkmatter</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="/about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/blog">Blog</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        Pages
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="/cover">Cover</a>
-                        <a class="dropdown-item" href="/frontpage">Frontpage</a>
-                        <a class="dropdown-item" href="/landing">Landing</a>
-                        <a class="dropdown-item" href="/scroll">Scroll</a>
-                        <a class="dropdown-item" href="/welcome">Welcome</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="/about">About</a>
-                        <a class="dropdown-item" href="/team">Team</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="/fullwidth">Full Width</a>
-                        <a class="dropdown-item" href="/album">Album</a>
-                        <a class="dropdown-item" href="/product">Product</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="/blog">Blog</a>
-                        <a class="dropdown-item" href="/post">Post</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="/portfolio-1">1 Column Portfolio</a>
-                        <a class="dropdown-item" href="/portfolio-2">2 Column Portfolio</a>
-                        <a class="dropdown-item" href="/portfolio-3">3 Column Portfolio</a>
-                        <a class="dropdown-item" href="/portfolio-item">Portfolio Item</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        Slides
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="/slides/sample-presentation">Sample Presentation</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/search">Search</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-    </div>
+  <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+
 
     <div class="container">
-      <!-- Page Content -->
-<div class="container">
-
-  <!-- Jumbotron Header -->
-  <header class="jumbotron my-4">
-    <h1 class="display-3">Hello World!</h1>
-    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt
-      possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam
-      repellat.</p>
-    <a href="#" class="btn btn-primary btn-lg">Call to action!</a>
-  </header>
-</div>
+      <header class="cover">
+  <h1 style="font-weight: 73; font-size: 73px;">Darkmatter Cloud</h1>
+  <br>
+  <h2 style="font-weight: 73;">Field Notes from @KnownTraveler</h1>
+  <!-- <p class="lead" style="padding-top: 20px;">
+    <a id="landing-btn" href="/home" class="btn btn-lg" style="background-color: #ffffff; color: black; ">Notes and
+      Observations</a>
+  </p> -->
+  <p style="padding-top: 10px;">
+    <a href="/home" class="fas fa-3x fa-book" data-toggle="tooltip" data-placement="top" title="Field Notes" 
+      style="text-decoration: none; padding: 5px; color: #f5f5f5;"></a>
+    <a href="https://github.com/knowntraveler" data-toggle="tooltip" data-placement="top" title="GitHub" class="fab fa-3x fa-github"
+      style="text-decoration: none; padding: 5px; color: #f5f5f5;" target="_blank"></a>
+    <a href="https://keybase.io/hooper" data-toggle="tooltip" data-placement="top" title="Keybase" class="fab fa-3x fa-keybase"
+      style="text-decoration: none; padding: 5px; color: #f5f5f5;" target="_blank"></a>
+    <a href="https://www.linkedin.com/in/knowntraveler/" data-toggle="tooltip" data-placement="top" title="LinkedIn"
+      class="fab fa-3x fa-linkedin" style="text-decoration: none; padding: 5px; color: #f5f5f5;" target="_blank"></a>
+    <a href="https://twitter.com/known_traveler" data-toggle="tooltip" data-placement="top" title="Twitter" class="fab fa-3x fa-twitter"
+      style="text-decoration: none; padding: 5px; color: #f5f5f5;" target="_blank"></a>
+    <a href="mailto:hello@darkmatter.cloud" data-toggle="tooltip" data-placement="top" title="Email" class="fas fa-3x fa-envelope"
+      style="text-decoration: none; padding: 5px; color: #f5f5f5;" target="_blank"></a>
+  </p>
+</header>
     </div>
-
-    <footer class="pt-4 my-md-5 pt-md-5 border-top">
-      <div class="row">
-    <div class="col-12 col-md">
-        <img class="mb-2" src="/assets/images/darkmatter.png" alt="" width="48" height="48">
-        <small class="d-block mb-3 text-muted">&copy; Darkmatter Theme 2018</small>
-    </div>
-    <div class="col-6 col-md">
-        <h5>Heading 1</h5>
-        <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">HyperLink One</a></li>
-            <li><a class="text-muted" href="#">HyperLink Two</a></li>
-            <li><a class="text-muted" href="#">HyperLink Three</a></li>
-            <li><a class="text-muted" href="#">HyperLink Four</a></li>
-            <li><a class="text-muted" href="#">HyperLink Five</a></li>
-        </ul>
-    </div>
-    <div class="col-6 col-md">
-        <h5>Heading 2</h5>
-        <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">HyperLink One</a></li>
-            <li><a class="text-muted" href="#">HyperLink Two</a></li>
-            <li><a class="text-muted" href="#">HyperLink Three</a></li>
-            <li><a class="text-muted" href="#">HyperLink Four</a></li>
-            <li><a class="text-muted" href="#">HyperLink Five</a></li>
-        </ul>
-    </div>
-    <div class="col-6 col-md">
-        <h5>Heading 3</h5>
-        <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">HyperLink One</a></li>
-            <li><a class="text-muted" href="#">HyperLink Two</a></li>
-            <li><a class="text-muted" href="#">HyperLink Three</a></li>
-            <li><a class="text-muted" href="#">HyperLink Four</a></li>
-            <li><a class="text-muted" href="#">HyperLink Five</a></li>
-        </ul>
-    </div>
-</div>
-<!-- /.row -->
-
-<hr>
-<div class="row">
-    <div class="col-6 col-md">
-        <p class="text-muted float-left">
-            <a href="https://github.com/fellowhobbyist/darkmatter-theme/" target="_blank">Darkmatter Theme</a>
-            Handcrafted with <i class="fas fa-heart"></i> by a <a href="https://fellowhobbyist.com" target="_blank">Fellow
-                Hobbyist</a>
-        </p>
-    </div>
-    <div class="col-6 col-md">
-        <p class="text-muted float-right">
-            <a href="https://opensource.org/licenses/MPL-2.0" target="_blank">Mozilla Public License 2.0</a>
-        </p>
-    </div>
-</div>
-<!-- /.row -->
-    </footer>
 
   </div>
 
-  
-
-  <script type="text/javascript">
-    var sjs = SimpleJekyllSearch({
-      searchInput: document.getElementById('search-input'),
-      resultsContainer: document.getElementById('results-container'),
-      json: '/search.json',
-      limit: 25
-    })
-  </script>
 </body>
 
 </html>

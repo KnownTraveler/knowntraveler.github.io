@@ -1,38 +1,52 @@
 [
     
         {
-            "title": "What is Bacon Ipsum pt3",
-            "tags": "bacon, ipsum",
-            "url": "/what-is-bacon-ipsum-pt3/",
-            "date": "2018-03-01 00:00:00 -0600"
+            "title": "Custom PC Install",
+            "tags": "custom, install, darkmatter",
+            "url": "/custom-pc-install/",
+            "date": "2018-02-02 00:00:00 -0600"
         } ,
     
         {
-            "title": "What is Bacon Ipsum pt2",
-            "tags": "bacon, ipsum",
-            "url": "/what-is-bacon-ipsum-pt2/",
+            "title": "Custom PC Build",
+            "tags": "custom, pc, build",
+            "url": "/custom-pc-build/",
             "date": "2018-02-01 00:00:00 -0600"
         } ,
     
         {
-            "title": "What is Bacon Ipsum pt1",
-            "tags": "bacon, linux",
-            "url": "/what-is-bacon-ipsum-pt1/",
+            "title": "Watch List",
+            "tags": "toolbox",
+            "url": "/watch-list/",
+            "date": "2018-01-01 00:00:00 -0600"
+        } ,
+    
+        {
+            "title": "Read List",
+            "tags": "read, list",
+            "url": "/read-list/",
+            "date": "2018-01-01 00:00:00 -0600"
+        } ,
+    
+        {
+            "title": "My Toolbox",
+            "tags": "toolbox",
+            "url": "/my-toolbox/",
             "date": "2018-01-01 00:00:00 -0600"
         } 
     ,
     
         {
-            "title": "Frontpage",
-            "tags": "frontpage template business",
-            "url": "/frontpage/",
+            "title": "What is Bacon Ipsum pt1",
+            "tags": "bacon linux",
+            "url": "/examples/blog_post/",
             "date": "2018-01-01 00:00:00 -0600"
         } ,
     
         {
-            "title": "Cover",
-            "tags": "cover template business",
-            "url": "/cover/",
+            "title": "Theme",
+            "tags": "theme template business",
+            "url": "/theme/",
             "date": "2018-01-01 00:00:00 -0600"
         } ,
     
@@ -79,6 +93,13 @@
         } ,
     
         {
+            "title": "Home",
+            "tags": "blog template business",
+            "url": "/home/",
+            "date": "2018-01-01 00:00:00 -0600"
+        } ,
+    
+        {
             "title": "Fullwidth",
             "tags": "fullwidth template business",
             "url": "/fullwidth/",
@@ -100,16 +121,16 @@
         } ,
     
         {
-            "title": "Theme",
-            "tags": "theme template business",
-            "url": "/theme/",
+            "title": "Cover",
+            "tags": "cover template business",
+            "url": "/cover/",
             "date": "2018-01-01 00:00:00 -0600"
         } ,
     
         {
-            "title": "Blog",
-            "tags": "blog template business",
-            "url": "/blog/",
+            "title": "Landing",
+            "tags": "landing",
+            "url": "/",
             "date": "2018-01-01 00:00:00 -0600"
         } ,
     
@@ -150,16 +171,23 @@
     
         {
             "title": "About",
-            "tags": "about template business",
+            "tags": "about resume",
             "url": "/about/",
             "date": "2018-01-01 00:00:00 -0600"
         } ,
     
         {
-            "title": "Home",
-            "tags": "",
-            "url": "/",
-            "date": ""
+            "title": "Frontpage",
+            "tags": "frontpage template business",
+            "url": "/frontpage/",
+            "date": "2018-01-01 00:00:00 -0600"
+        } ,
+    
+        {
+            "title": "Blog",
+            "tags": "blog template business",
+            "url": "/blog/",
+            "date": "2018-01-01 00:00:00 -0600"
         } ,
     
         {
