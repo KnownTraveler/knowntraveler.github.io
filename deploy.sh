@@ -23,3 +23,10 @@ git add .
 git commit -m "Deploying Latest Site Build - $DATE"
 git push -u origin master
 
+echo ""
+echo ""
+echo "Final Commit to github.com/knowntraveler/knowntraveler-web"
+cd ../
+git add .
+git commit -m "Committing Final _site Build - $DATE"
+git push -u origin master

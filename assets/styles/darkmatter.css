@@ -68,3 +68,9 @@
   left: 5%;
   background-color: #e5e5e5;
 }
+
+.card-img-top {
+  width: 100%;
+  height: 25vw;
+  object-fit: cover;
+}

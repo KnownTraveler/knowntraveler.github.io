@@ -1,7 +1,14 @@
 [
     
         {
-            "title": "Custom PC Install",
+            "title": "Giddy Up Let&#39;s Go",
+            "tags": "golang",
+            "url": "/giddy-up-lets-go/",
+            "date": "2018-03-01 00:00:00 -0600"
+        } ,
+    
+        {
+            "title": "Dual Boot Install",
             "tags": "custom, install, darkmatter",
             "url": "/custom-pc-install/",
             "date": "2018-02-02 00:00:00 -0600"
@@ -44,9 +51,16 @@
         } ,
     
         {
-            "title": "Theme",
-            "tags": "theme template business",
-            "url": "/theme/",
+            "title": "Frontpage",
+            "tags": "frontpage template business",
+            "url": "/frontpage/",
+            "date": "2018-01-01 00:00:00 -0600"
+        } ,
+    
+        {
+            "title": "Cover",
+            "tags": "cover template business",
+            "url": "/cover/",
             "date": "2018-01-01 00:00:00 -0600"
         } ,
     
@@ -121,16 +135,16 @@
         } ,
     
         {
-            "title": "Cover",
-            "tags": "cover template business",
-            "url": "/cover/",
+            "title": "Theme",
+            "tags": "theme template business",
+            "url": "/theme/",
             "date": "2018-01-01 00:00:00 -0600"
         } ,
     
         {
-            "title": "Landing",
-            "tags": "landing",
-            "url": "/",
+            "title": "Blog",
+            "tags": "blog template business",
+            "url": "/blog/",
             "date": "2018-01-01 00:00:00 -0600"
         } ,
     
@@ -177,16 +191,30 @@
         } ,
     
         {
-            "title": "Frontpage",
-            "tags": "frontpage template business",
-            "url": "/frontpage/",
+            "title": "Search",
+            "tags": "search template business",
+            "url": "/search/",
             "date": "2018-01-01 00:00:00 -0600"
         } ,
     
         {
-            "title": "Blog",
+            "title": "Home",
             "tags": "blog template business",
-            "url": "/blog/",
+            "url": "/home/",
+            "date": "2018-01-01 00:00:00 -0600"
+        } ,
+    
+        {
+            "title": "About",
+            "tags": "about resume",
+            "url": "/about/",
+            "date": "2018-01-01 00:00:00 -0600"
+        } ,
+    
+        {
+            "title": "Landing",
+            "tags": "landing",
+            "url": "/",
             "date": "2018-01-01 00:00:00 -0600"
         } ,
     
